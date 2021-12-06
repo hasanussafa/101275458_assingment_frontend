@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:lightslategrey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.textbox{
+  width: 50%;
+  height: 20px;
+  padding: 3px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +40,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+.dash_board {
+  width: 90%;
+  height: auto;
+  background: gainsboro;
+  border-color:whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 5px rgb(100%, 100%, 100%);
+  direction: ltr;
+  font-size: 12px;
+  margin-top: 3%;
+  padding: 1px;
+  margin-left: 5%;
+
+}
+.dash_board2 h1 {
+
+  color: lightskyblue;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.text {
+  margin-top: 2%;
+  font-size: 17px;
+}
+.text2 {
+  font-family: bold;
+  font-size: 17px;
+}
+.headingfont{
+  font-size: 22px;
+}
+div.paragraph{
+  background: white;
+  margin-top: 3%;
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  position: relative;
+  box-shadow: 0 2px 7px 5px #aaa;
+  height: 100%;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+
+
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: rgb(0%, 40%, 64%);
+}
+.button{
+  background-color: #1e90ff;
+  color: white;
 }
